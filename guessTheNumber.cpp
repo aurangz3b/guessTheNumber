@@ -10,8 +10,8 @@ int attempts = 0;
 int x = time(0);
 srand(x);
 randomNumber = 1 + rand() % 99;
+cout << "welcome to the guessing game"<<endl<<"try to guess a random number between 1 and 100"<<endl;
 //loop
-
 while(true){
 cout << "enter the guessed number between 1 and 100: "<<endl;
 cin >> guessedNumber;
