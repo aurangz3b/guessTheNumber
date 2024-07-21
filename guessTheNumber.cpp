@@ -13,7 +13,7 @@ randomNumber = 1 + rand() % 99;
 //loop
 
 while(true){
-cout << "enter the gussed number: "<<endl;
+cout << "enter the gussed number between 1 and 100: "<<endl;
 cin >> guessedNumber;
 attempts++;
 if(guessedNumber > randomNumber)
