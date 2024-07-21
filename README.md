@@ -1,1 +1,1 @@
-guess a number betweem 1 amd 100 
+guess a number betweem 1 and 100 
