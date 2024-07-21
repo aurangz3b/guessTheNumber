@@ -6,7 +6,6 @@ int main(){
 int randomNumber, guessedNumber;
 int attempts = 0;
 // generating a random number
-    // srand(static_cast<unsigned>(time(0)));
 int x = time(0);
 srand(x);
 randomNumber = 1 + rand() % 99;
